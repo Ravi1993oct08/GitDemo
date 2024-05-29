@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="PersonalLoan">
+	<test name="Bokka loan">
+		<classes>
+			<class name="testNGTutorial.Day1" />
+			<class name="testNGTutorial.Day2" />
+		</classes>
+	</test>
+	<test name="CarLoan">
+		<classes>
+			<class name="testNGTutorial.Day3" />
+		</classes>
+	</test>
+	<test name="HomeLoan">
+		<classes>
+			<class name="testNGTutorial.Day4" />
+		</classes>
+	</test>
+</suite> 
