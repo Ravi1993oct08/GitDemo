@@ -13,4 +13,9 @@ public class Day1 {
 	public void demo2() {
 		System.out.println("Method 2");
 	}
+
+	@Test
+	public void demo3(){
+		System.out.println("Method 3");
+	}
 }
