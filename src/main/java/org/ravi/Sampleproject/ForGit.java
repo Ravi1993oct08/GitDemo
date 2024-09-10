@@ -6,6 +6,9 @@ public class ForGit {
 		int j=20;
 		int c=i*j;
 		System.out.println(c);
+		String firstName="Ravi";
+		String secondName="Kiran";
+		System.out.println(firstName+secondName);
 	}
 	
 	public void second() {
