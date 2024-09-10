@@ -10,5 +10,6 @@ public class ForGit {
 	
 	public void second() {
 		System.out.println("Hello");
+		System.out.println("World");
 	}
 }
