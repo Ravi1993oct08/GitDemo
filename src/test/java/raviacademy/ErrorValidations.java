@@ -21,7 +21,7 @@ public class ErrorValidations extends BaseClass {
 		Assert.assertTrue(Lp.getErrorMessage().equalsIgnoreCase("Incorrect email or password."));
 	}
 	
-	@Test
+	@Test(retryAnalyzer=Retry.class)
 	public void productValidation() {
 		String productList = "ZARA COAT 3";
 		String countryName = "India";

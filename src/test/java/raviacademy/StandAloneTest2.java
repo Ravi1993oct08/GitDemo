@@ -9,6 +9,7 @@ import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
 import baseComponents.BaseClass;
+import baseComponents.Retry;
 import pageObjectClasses.CartPage;
 import pageObjectClasses.CheckOutPage;
 import pageObjectClasses.ConfirmationPage;
@@ -16,7 +17,7 @@ import pageObjectClasses.ProductCataloguePage;
 
 public class StandAloneTest2 extends BaseClass {
 
-	@Test(dataProvider="getData")
+	@Test(dataProvider="getData",retryAnalyzer=Retry.class)
 	public void submitOrder(HashMap<String,String> input) throws IOException {
 
 	
