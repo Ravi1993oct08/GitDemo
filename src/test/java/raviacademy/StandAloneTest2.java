@@ -39,6 +39,7 @@ public class StandAloneTest2 extends BaseClass {
 
 	}
 	
+	//This will fee the data to Submit order method above
 	@DataProvider
 	public Object[][] getData() throws IOException{
 		
