@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-09-10T21:35:09 IST" name="Suite" finished-at="2024-09-10T21:35:21 IST" duration-ms="12244">
+    <groups>
+      <group name="purchase">
+        <method signature="ErrorValidations.LoginVerification()[pri:0, instance:raviacademy.ErrorValidations@7857fe2]" name="LoginVerification" class="raviacademy.ErrorValidations"/>
+      </group> <!-- purchase -->
+    </groups>
+    <test started-at="2024-09-10T21:35:09 IST" name="StandAloneTest" finished-at="2024-09-10T21:35:09 IST" duration-ms="17">
+    </test> <!-- StandAloneTest -->
+    <test started-at="2024-09-10T21:35:10 IST" name="Error validations test" finished-at="2024-09-10T21:35:21 IST" duration-ms="11573">
+      <class name="raviacademy.ErrorValidations">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:raviacademy.ErrorValidations@7857fe2]" started-at="2024-09-10T21:35:10 IST" name="launchApplication" finished-at="2024-09-10T21:35:20 IST" duration-ms="10348" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="LoginVerification()[pri:0, instance:raviacademy.ErrorValidations@7857fe2]" started-at="2024-09-10T21:35:20 IST" name="LoginVerification" finished-at="2024-09-10T21:35:21 IST" duration-ms="834" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginVerification -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:raviacademy.ErrorValidations@7857fe2]" started-at="2024-09-10T21:35:21 IST" name="tearDown" finished-at="2024-09-10T21:35:21 IST" duration-ms="324" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- raviacademy.ErrorValidations -->
+    </test> <!-- Error validations test -->
+  </suite> <!-- Suite -->
+</testng-results>
