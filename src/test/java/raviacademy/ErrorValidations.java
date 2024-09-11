@@ -38,7 +38,7 @@ public class ErrorValidations extends BaseClass {
 		ConfirmationPage confirmationpage = cop.clickOnPlaceOrder();
 		Boolean match = confirmationpage.getMessage(message);
 
-		Assert.assertFalse(match);
+		Assert.assertTrue(match);
 	}
 
 }

@@ -7,7 +7,7 @@
         <methods>
           <include name="launchApplication"/>
           <include name="tearDown"/>
-          <include name="submitOrder"/>
+          <include name="productValidation"/>
         </methods>
       </class> <!-- raviacademy.ErrorValidations -->
     </classes>
